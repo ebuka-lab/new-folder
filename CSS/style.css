@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top,
+    rgba(0, 0, 0, 0.5)50%,
+    rgba(0, 0, 0, 0.5)50%), 
+    url(/Resources/Resources/123.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+    height: 95px;
+    margin: auto;
+    /* border: 2px solid green; */
+
+}
+
+.icons{
+    width: 300px;
+    float: left;
+    height: 70px;
+    
+}
+
+.logo{
+    color: darkorange;
+    font-size: 30px;
+    font-family:  Helvetica;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 10px;
+    
+}
+
+.menu{
+    width: 600px;
+    /* float: left; */
+    height: 70px;
+}
+
+ul{
+    /* float: left; */
+    display: flex;
+    
+    
+}
+
+ul li{
+    list-style: none;
+     margin-left: 62px; 
+    margin-top: 27px;
+    font-size: 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: helvetica;
+    font-weight: bold;
+    /* transition: 0.4s ease-in-out; */
+}
+
+
+.search{
+    display: flex;
+    margin-left: 80px;
+    align-items: center;
+     margin-right: 0px;
+    }
+
+    .search.nav-input{
+        width: 170px;
+        height: 30px;
+        border-top-left-radius: 10px;
+        font-size: 20px;
+        border-bottom-left-radius: 1px;
+
+    }
+
+    .search button{
+        height: 30px;
+        width:70px ;
+        background-color: darkorange;
+        color: white;
+        margin-top: -0.5px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    #section-1{
+        display: flex;
+        flex-direction: row;
+        width: 1100;
+        border: 2px solid white;
+        border-radius: 30px;
+        /* background-color: darkorange; */
+        height: auto;
+        margin:auto;
+        padding: 30px;
+        gap: 35px;
+    }
+
+    #section-1 .web-dev{
+        
+        
+        height: auto;
+        padding: 10px;
+        
+    }
+
+    .web-dev h1{
+     font-size: 50px;
+     color: white;
+     font-weight: 900;
+     width: 500px;
+    }
+
+    .web-dev span{
+        color:darkorange;
+
+    }
+
+    .first-p,
+    .second-p{
+        color:white;
+        font-size: 20px;
+        margin-top: 20px;
+
+
+    }
+
+    .join-btn{
+        background-color: darkorange;
+        color: white;
+        font-size: 16px;
+        border-radius: 15px;
+        
+        padding: 10px 20px;
+        margin-top: 20px;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: auto;
+        padding: 15px;
+        text-align: center;
+        gap: 30px;
+        
+        border-radius: 15%;
+        background-color: black;
+
+        
+       
+    }
+
+    .card h2{
+        color: darkorange;
+        padding: 10px;
+        background-color:white;
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: 15px;
+        width: 70%;
+        margin: 0px auto;
+    }
+
+    .inp-box{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .inp-box input{
+        width: 95%;
+        height: auto;
+        margin: auto;
+        font-size: 15px;
+        border-radius: 7px;
+        padding: 5px 4px;
+        
+
+    }
+    
+
+    .card-btn{
+        color: black;
+        background-color: darkorange;
+        padding: 5px 10px;
+        font-size: 15px;
+        border-radius: 10px;
+        width: 70%;
+        margin: 0px auto;
+        cursor: pointer;
+        font-weight: 700;
+        transition: 0.3.ease ease-in-out;
+    }
+
+    .card-btn :hover{
+        background-color: white;
+        scale: 1.3;
+        
+    }
+
+    .card p{
+        color: white;
+        font-size: 18px;
+    }
+
+    .card p a{
+        color: yellow;
+    }
+
+    .card ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .card ul li{
+        list-style: none;
+        margin: 0px auto;
+
+    }
+
+
+
+
+    
+

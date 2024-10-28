@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px ;
+    
+}
+
+.Name{
+    padding: 0%;
+    width: 10px;
+    height: 50px;
+    background-color: gray;
+    border-radius: 10px;
+    margin: 10px;
+    gap: 40px;
+}
